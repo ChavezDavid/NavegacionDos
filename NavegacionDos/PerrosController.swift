@@ -7,3 +7,15 @@
 //
 
 import Foundation
+import UIKit
+
+class PerrosController : UIViewController {
+    
+    override func viewDidLoad() {
+        
+    }
+    
+    @IBAction func doTapAtras(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: nil)
+    }
+}
